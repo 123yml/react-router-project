@@ -22,8 +22,8 @@ class App extends Component {
             <Redirect exact to='/home' from='/'/>
             <Route path='/home' component={Home}/>
             <Route exact path='/blog' component={Blog}/>
-            <Route exact path='/myself' component={Myself}/>
-            <Route exact path='/detail/post/:id' component={Detail}/>
+            <Route path='/myself' component={Myself}/>
+            <Route path='/blog/post/:id' component={Detail}/>
         </Switch>
       </Router> 
     );

@@ -12,7 +12,7 @@ class Blog extends Component {
             {
                 id: 2,
                 title: '博客内容2',
-                detail: '1-博客内容2'
+                detail: '2-博客内容2'
             }
         ]
     }
